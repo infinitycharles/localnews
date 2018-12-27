@@ -1,19 +1,15 @@
 import React, { Component } from "react";
+import Posts from "./components/Posts";
 
 class Forum extends Component {
   render() {
     return (
       <div class="container">
         <div class="row">
-          <div class="col-sm">
-            One of three columns
+          <div class="col-lg">
+            <Posts />
           </div>
-          <div class="col-sm">
-            One of three columns
-          </div>
-          <div class="col-sm">
-            One of three columns
-          </div>
+          
         </div>
       </div>  
     );
