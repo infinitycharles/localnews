@@ -18,6 +18,21 @@ class Posts extends Component {
           <div key={post.id}>
             <h3>{post.title}</h3>
             <p>{post.body}</p>
+            <p>
+                <a href="#">
+                    <ul className="list-inline">
+                        <li id={post.id} className="list-inline-item">
+                            [View More]
+                        </li>
+                        <li id={post.id} className="list-inline-item">
+                            [Reply]
+                        </li>
+                        <li id={post.id} className="list-inline-item">
+                            [Report]
+                        </li>
+                    </ul>
+                </a>
+            </p>
           </div>
       ));
     return (
