@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 import Posts from "./components/Posts";
+import Postform from "./components/Postform";
 
 class Forum extends Component {
   render() {
     return (
-      <div class="container">
-        <div class="row">
-          <div class="col-lg">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg">
+            <Postform />
+            <hr />
             <Posts />
           </div>
           

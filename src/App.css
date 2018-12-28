@@ -1,0 +1,2 @@
+.post { background: pink; }
+.post:nth-child(odd) { background: red; }
